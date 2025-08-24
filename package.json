@@ -1,0 +1,29 @@
+{
+  "name": "dream-stage-backend-mvp",
+  "version": "1.0.0",
+  "description": "A backend mvp for a startup Dream Stage where artist and curators can connect",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backend",
+    "javaScript",
+    "node",
+    "express"
+  ],
+  "author": "Anurag Verma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "validator": "^13.15.15"
+  }
+}
